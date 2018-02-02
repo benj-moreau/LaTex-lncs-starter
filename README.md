@@ -2,8 +2,7 @@
 Latex starter with lncs template for students
 
 ## Installation
-Instruction to install LaTex:
-https://fr.wikibooks.org/wiki/LaTeX/Installer_LaTeX
+Instruction to install LaTex [here](https://fr.wikibooks.org/wiki/LaTeX/Installer_LaTeX)
 
 ## Generate PDF file
 
@@ -37,3 +36,7 @@ Just compile your document with `pdflatex`
 ```bash
 pdflatex paper
 ```
+
+## How To LaTex
+
+You will find [Here](https://fr.wikibooks.org/wiki/LaTeX) a nice doc for Latex
