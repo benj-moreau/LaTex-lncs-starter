@@ -1,0 +1,62 @@
+\documentclass[runningheads,a4paper]{llncs}
+
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{cite}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{amssymb}
+\lstset{language=SQL,morekeywords={PREFIX,java,rdf,rdfs,url}}
+\usepackage[left]{lineno}
+% \linenumbers %Uncomment to activate line number
+\authorrunning{Authors here}
+
+% Contribution name
+\newcommand{\name}{ContributionName}
+  
+\usepackage{paralist}
+\usepackage{graphics}
+\usepackage[table]{xcolor}
+\newcommand{\reminder}[1]{[\vadjust{\vbox to0pt{\vss\hbox to0pt{\hss{\Large $\Longrightarrow$}}}}{{\textsf{\small #1}}}]}
+\newcommand{\toto}[1]{\textcolor{magenta}{\reminder{Author1:~#1}}}
+\newcommand{\titi}[1]{\textcolor{green}{\reminder{Author2:~#1}}}
+\newcommand{\tutu}[1]{\textcolor{red}{\reminder{Author3:~#1}}}
+
+\begin{document}
+
+\title{Title}
+
+\author{Author1 \inst{2}\and Author2\--Alvarado \inst{1}\and Author3}
+		
+\institute{Equipe -- City University, France\
+  \email{\{Name.LastName@\}univ-city.fr}
+\and
+Company\
+\email{\{Name.Lastname\}@companyname.com}}
+			
+\maketitle
+
+\begin{abstract}
+your abstract here
+\end{abstract}
+
+\section{Introduction}
+\label{sec:introduction}
+\input{introduction}
+
+\section{Related work}
+\label{sec:relatedwork}
+\input{relatedWork}
+
+
+\section{Conclusion}
+\label{sec:conclusion}
+\input{conclusion}
+
+\bibliographystyle{ieeetr}
+\bibliography{biblio}
+
+\end{document}
